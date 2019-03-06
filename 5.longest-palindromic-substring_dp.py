@@ -32,6 +32,7 @@
 #
 class Solution:
     # dp solution
+    # time O(n^2), space O(n^2)
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
         cache = [[0 for x in range(n)] for y in range(n)]
