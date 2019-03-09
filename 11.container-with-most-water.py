@@ -53,3 +53,7 @@ class Solution:
                 i += 1
         return res
 
+# test cases:
+# [1,2,3,4,5,6,7]
+# []
+# [3,7,2,5,3,7,5]
