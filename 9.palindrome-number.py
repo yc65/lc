@@ -53,3 +53,11 @@ class Solution:
             rev_x = rev_x * 10 + int(x%10)
             x = int(x/10)
         return x in (int(rev_x/10), rev_x)
+
+# test cases
+# 10000
+# -121
+# 1304834
+# 184841
+# 13531
+# 11

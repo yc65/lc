@@ -40,6 +40,7 @@ class Solution:
         
         for i in range(1, n):
             # assume the substring has odd length
+            ## notice how to get the left and right of the sustring!
             low = i-1
             high = i+1
             while low >=0 and high<n and s[low] == s[high]:
