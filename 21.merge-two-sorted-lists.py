@@ -29,31 +29,36 @@
 
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        if not l1 and not l2: 
-            return None
-        elif l2 and not l1:
-            return l2
-        elif l1 and not l2:
-            return l1
-
-        if l2.val<l1.val:
-            l1, l2 = l2, l1
-        head = l1
-
-        while l1 and l2:
-            if l1.next and l2.val <= l1.next.val:
-                temp = l2
-                l2 = l2.next
-                temp.next = l1.next
-                l1.next = temp
-            elif l1.next and l2.val>l1.next.val:
-                l1 = l1.next
-            else:
-                break
-        if not l1.next: # we've run out of l1
-            l1.next = l2
-        return head
+        if not l1 or not l2: 
+            return l1 or l2
         
+        # the recursive method
+        if l2.val<l1.val:
+            start = l2
+            start.next = self.mergeTwoLists(l1, l2.next)
+        else:
+            start = l1
+            start.next = self.mergeTwoLists(l1.next, l2)
+
+        # below is the non-recursive method
+        # if l2.val<l1.val:
+        #     l1, l2 = l2, l1
+        # head = l1
+
+        # while l1 and l2:
+        #     if l1.next and l2.val <= l1.next.val:
+        #         temp = l2
+        #         l2 = l2.next
+        #         temp.next = l1.next
+        #         l1.next = temp
+        #     elif l1.next and l2.val>l1.next.val:
+        #         l1 = l1.next
+        #     else:
+        #         break
+        # if not l1.next: # we've run out of l1
+        #     l1.next = l2
+        return start
+
             
 
 
