@@ -54,13 +54,14 @@ class Solution:
             nxt = head.next
         else:
             return head
+        # draw on a paper to visualize..
         while curr and count < k:
             nxt = curr.next
             curr.next = prev
             prev = curr
             curr = nxt
             count += 1
-        if count < k:
+        if count < k: # it the rest is less than k, reverse the reversed list
             return self.reverse_k(prev, count)
         else:
             # orig_head is the tail, prev is the head, curr is the next after tail
@@ -72,7 +73,9 @@ class Solution:
         s.next = head
         prev = s
         while head:
+            # reverse k elements
             tail, h, nxt = self.reverse_k(head, k)
+            # update as if the reversed k element is a single unit
             prev.next = h
             tail.next= nxt
             prev = tail
