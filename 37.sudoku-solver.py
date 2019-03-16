@@ -62,10 +62,12 @@ class Solution:
                     return False
             return True
         def validate_matrix(r, c, num):
-            matrix_id_r = r//3
-            matrix_id_c = c//3
-            for i in range(matrix_id_r*3, (matrix_id_r+1)*3):
-                for j in range(matrix_id_c*3, (matrix_id_c+1)*3):
+            r_l = (r//3)*3
+            r_r = (r//3+1)*3
+            c_l = (c//3)*3
+            c_r = (c//3+1)*3
+            for i in range(r_l, r_r):
+                for j in range(c_l, c_r):
                     if num == board[i][j]:
                         return False
             return True
