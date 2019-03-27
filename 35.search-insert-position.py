@@ -47,6 +47,7 @@
 # 
 #
 class Solution:
+    # binary search
     def searchInsert(self, nums: List[int], target: int) -> int:
         if not nums: return 0
         left, right = 0, len(nums)-1

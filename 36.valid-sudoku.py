@@ -94,7 +94,7 @@ class Solution:
             for c in range(0, 9):
                 matrix_id = c//3
                 curr = board[r][c]
-                if curr != '.':
+                if curr != '.': # don't for get this
                     if curr in row_set[r] or curr in col_set[c] or curr in matrx_set[matrix_id]:
                         return False
                     row_set[r].add(curr)

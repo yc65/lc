@@ -37,6 +37,8 @@
 # 
 #
 class Solution:
+    # binary search 
+    # NOTE the boundaries
     def mySqrt(self, x: int) -> int:
         i, j = 0, x//2+1
         while i <= j:

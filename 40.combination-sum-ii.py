@@ -50,6 +50,7 @@
 # 
 #
 class Solution:
+    # backtracking
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         res = []
         candidates.sort()

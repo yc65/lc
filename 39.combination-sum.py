@@ -59,10 +59,14 @@ class Solution:
                 if i == target:
                     res.append(temp+[i])
                 elif i < target:
+                    # notice use canddts[idx:] to avoide duplicated results
                     backtrack(temp+[i],canddts[idx:],target-i)
         
         backtrack([],candidates, target)
         return res
 
-
+# test cases
+# [2,3,5]\n8
+# []\n1
+# [3,6,7,9,4,5,2,3,2,2]\n4
 

@@ -30,6 +30,7 @@
 # 
 #
 class Solution:
+    # backtracking
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
         def rec(sub_res, candidates):

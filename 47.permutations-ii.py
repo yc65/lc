@@ -28,6 +28,7 @@
 # 
 #
 class Solution:
+    # backtracking (avoid duplicates)
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         if len(nums) == 0: return []
         nums.sort()
