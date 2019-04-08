@@ -6,9 +6,9 @@
 # https://leetcode.com/problems/unique-binary-search-trees-ii/description/
 #
 # algorithms
-# Medium (34.98%)
-# Total Accepted:    132.1K
-# Total Submissions: 376.1K
+# Medium (35.17%)
+# Total Accepted:    132.7K
+# Total Submissions: 377.3K
 # Testcase Example:  '3'
 #
 # Given an integer n, generate all structurally unique BST's (binary search
@@ -45,7 +45,27 @@
 #         self.right = None
 
 class Solution:
-    # dp
-    # catalan number: Cn+1 = sum(Ci*Cn-i)
     def generateTrees(self, n: int) -> List[TreeNode]:
-        
+        if not n: return []
+        def recur(begin, end):
+            res = []
+            if begin > end:
+                res.append(None)
+                return res
+            for i in range(begin, end+1):
+                left_subtrees = recur(begin, i-1)
+                right_subtrees = recur(i+1, end)
+                len_left_subtrees = len(left_subtrees)
+                len_right_subtrees = len(right_subtrees)
+                for m in range(len_left_subtrees):
+                    l_sub = left_subtrees[m]
+                    for n in range(len_right_subtrees):
+                        r_sub = right_subtrees[n]
+                        curr_node = TreeNode(i)
+                        curr_node.left = l_sub
+                        curr_node.right = r_sub
+                        res.append(curr_node)
+            return res
+        out = recur(1, n)
+        return out
+
