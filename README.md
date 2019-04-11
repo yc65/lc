@@ -1,5 +1,5 @@
 # leetcode
-Classification by approaches
+
 ## Hashtable
 * [1. two sums](https://github.com/yc65/lc/blob/master/1.two-sum.py)
 * [15. three sums](https://github.com/yc65/lc/blob/master/15.3-sum_based_on_two_sums.py) (time limit exceed)
@@ -18,6 +18,7 @@ Classification by approaches
 * [22. genearte paranthesis](https://github.com/yc65/lc/blob/master/22.generate-parentheses.py)
 ## Stack
 * [20. valid parentheses](https://github.com/yc65/lc/blob/master/20.valid-parentheses.py)
+* [32. longest valid paranthesis](https://github.com/yc65/lc/blob/master/32.longest-valid-parentheses.py)
 ## Two pointers
 * [11. container with most water](https://github.com/yc65/lc/blob/master/11.container-with-most-water.py)
 * [15. three sums](https://github.com/yc65/lc/blob/master/15.3-sum_with_sort.py) (with sort)
@@ -44,3 +45,6 @@ Classification by approaches
 * [14, longest common prefix](https://github.com/yc65/lc/blob/master/14.longest-common-prefix.py)
 * [26. remove duplicates from sorted array](https://github.com/yc65/lc/blob/master/26.remove-duplicates-from-sorted-array.py)
 * [28. implement str str](https://github.com/yc65/lc/blob/master/28.implement-str-str.py)
+
+### permutation:
+* [31. next permutation](https://github.com/yc65/lc/blob/master/31.next-permutation.py)
