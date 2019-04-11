@@ -20,7 +20,7 @@
 * [22. genearte paranthesis](https://github.com/yc65/lc/blob/master/22.generate-parentheses.py)
 * [37. sudoki solver](https://github.com/yc65/lc/blob/master/37.sudoku-solver.py)
 * [39. combination sum](https://github.com/yc65/lc/blob/master/39.combination-sum.py) (with sort)
-* [40. combination sum ii] (https://github.com/yc65/lc/blob/master/40.combination-sum-ii.py) (need to deal with duplicates)
+* [40. combination sum ii](https://github.com/yc65/lc/blob/master/40.combination-sum-ii.py) (need to deal with duplicates)
 * [46. permutations](https://github.com/yc65/lc/blob/master/46.permutations.py)
 * [47. permutations ii](https://github.com/yc65/lc/blob/master/47.permutations-ii.py) (with sort)
 ## Stack
