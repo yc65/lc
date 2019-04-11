@@ -1,11 +1,14 @@
 # leetcode
+Classification by approaches
 ## Hashtable
 * [1. two sums](https://github.com/yc65/lc/blob/master/1.two-sum.py)
 * [15. three sums](https://github.com/yc65/lc/blob/master/15.3-sum_based_on_two_sums.py) (time limit exceed)
+* [30. substring with concatenation of all words](https://github.com/yc65/lc/blob/master/30.substring-with-concatenation-of-all-words.py)
 ## Linked list
 * [2. add two numbers](https://github.com/yc65/lc/blob/master/2.add-two-numbers.py)
 * [3. longest-substring-without-repeating-characters](https://github.com/yc65/lc/blob/master/3.longest-substring-without-repeating-characters.py)
 * [21. merge two sorted lists](https://github.com/yc65/lc/blob/master/21.merge-two-sorted-lists.py)
+* [25. reverse nodes in k group](https://github.com/yc65/lc/blob/master/25.reverse-nodes-in-k-group.py)
 ## DP
 * [5. longest palindromic substring](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_dp.py) (alternatively, loop centers [5. approach 2](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_loop_center.py) )
 * [10. regular expression matching](https://github.com/yc65/lc/blob/master/10.regular-expression-matching.py)
@@ -21,9 +24,11 @@
 * [16. three sums closest](https://github.com/yc65/lc/blob/master/16.3-sum-closest.py) (with sort)
 * [18. four sums](https://github.com/yc65/lc/blob/master/18.4-sum.py) (with sort)
 * [19. remove nth node from end of list](https://github.com/yc65/lc/blob/master/19.remove-nth-node-from-end-of-list.py)
+* [27. remove element](https://github.com/yc65/lc/blob/master/27.remove-element.py) (slow-fast pointers)
 ## Binary search
 * [4. median of two sorted arrays](https://github.com/yc65/lc/blob/master/4.median-of-two-sorted-arrays.py)
 ## Bit operation
+* [29. divide two integers](https://github.com/yc65/lc/blob/master/29.divide-two-integers.py)
 ## Tree traversal
 ## Recursion 
 * [24. swap nodes in pairs](https://github.com/yc65/lc/blob/master/24.swap-nodes-in-pairs.py)(could also be iterative)
@@ -37,3 +42,5 @@
 * [12. integer to roman](https://github.com/yc65/lc/blob/master/12.integer-to-roman.py)
 * [13. roman to integer](https://github.com/yc65/lc/blob/master/13.roman-to-integer.py)
 * [14, longest common prefix](https://github.com/yc65/lc/blob/master/14.longest-common-prefix.py)
+* [26. remove duplicates from sorted array](https://github.com/yc65/lc/blob/master/26.remove-duplicates-from-sorted-array.py)
+* [28. implement str str](https://github.com/yc65/lc/blob/master/28.implement-str-str.py)
