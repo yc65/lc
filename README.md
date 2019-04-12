@@ -13,8 +13,10 @@
 * [5. longest palindromic substring](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_dp.py) (alternatively, loop centers [5. approach 2](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_loop_center.py) )
 * [10. regular expression matching](https://github.com/yc65/lc/blob/master/10.regular-expression-matching.py)
 * [44. wildcard matching](https://github.com/yc65/lc/blob/master/44.wildcard-matching.py)
+* [53. maximum subarray](https://github.com/yc65/lc/blob/master/53.maximum-subarray.py)
 ## Greedy
 * [45. jump game ii](https://github.com/yc65/lc/blob/master/45.jump-game-ii.py)
+* [55. jump game](https://github.com/yc65/lc/blob/master/55.jump-game.py)
 ## Backtracking
 * [17. letter combination of a phone number](https://github.com/yc65/lc/blob/master/17.letter-combinations-of-a-phone-number.py)
 * [22. genearte paranthesis](https://github.com/yc65/lc/blob/master/22.generate-parentheses.py)
@@ -23,9 +25,12 @@
 * [40. combination sum ii](https://github.com/yc65/lc/blob/master/40.combination-sum-ii.py) (need to deal with duplicates)
 * [46. permutations](https://github.com/yc65/lc/blob/master/46.permutations.py)
 * [47. permutations ii](https://github.com/yc65/lc/blob/master/47.permutations-ii.py) (with sort)
+* [51. n-queens](https://github.com/yc65/lc/blob/master/51.n-queens.py)
+* [51. n-queens ii](https://github.com/yc65/lc/blob/master/52.n-queens-ii.py)
 ## Stack
 * [20. valid parentheses](https://github.com/yc65/lc/blob/master/20.valid-parentheses.py)
 * [32. longest valid paranthesis](https://github.com/yc65/lc/blob/master/32.longest-valid-parentheses.py)
+* [56. merge intevals](https://github.com/yc65/lc/blob/master/56.merge-intervals.py)
 ## Two pointers
 * [11. container with most water](https://github.com/yc65/lc/blob/master/11.container-with-most-water.py)
 * [15. three sums](https://github.com/yc65/lc/blob/master/15.3-sum_with_sort.py) (with sort)
@@ -63,5 +68,9 @@
 * [43. multiply strings](https://github.com/yc65/lc/blob/master/43.multiply-strings.py)
 * [48. rotate image](https://github.com/yc65/lc/blob/master/48.rotate-image.py)
 * [49. group anagrams](https://github.com/yc65/lc/blob/master/49.group-anagrams.py) (with sort)
+* [54. spiral matrix](https://github.com/yc65/lc/blob/master/54.spiral-matrix.py)
+* [57. insert intevals](https://github.com/yc65/lc/blob/master/57.insert-interval.py)
+* [58. length of last word](https://github.com/yc65/lc/blob/master/58.length-of-last-word.py)
+* [59. spiral matrix ii](https://github.com/yc65/lc/blob/master/59.spiral-matrix-ii.py)
 ### permutation:
 * [31. next permutation](https://github.com/yc65/lc/blob/master/31.next-permutation.py)
