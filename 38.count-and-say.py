@@ -49,6 +49,7 @@
 # 
 #
 class Solution:
+    # recursion
     def countAndSay(self, n: int) -> str:
         def rec(n):
             if n == 1:

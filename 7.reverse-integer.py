@@ -42,6 +42,21 @@
 # 
 #
 class Solution:
-    def reverse(self, x: int) -> int:
+    def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        res=0
+        negative=False
+        if x<0:
+            negative=True
+            x=abs(x)
+        res=int(str(x)[::-1])
+        if res>2**31:
+            res=0 
+        elif negative:
+            res=0-res
+        return res
         
 
