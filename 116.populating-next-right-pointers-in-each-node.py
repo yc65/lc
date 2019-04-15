@@ -68,17 +68,38 @@ class Node:
         self.next = next
 """
 class Solution:
-    def connect(self, root: 'Node') -> 'Node':
-        if not root: return root
-        q = [(root,0)]
-        while q:
-            curr_node, curr_level = q.pop(0)
-            if curr_node.left:
-                q.append((curr_node.left, curr_level+1))
-            if curr_node.right:
-                q.append((curr_node.right, curr_level+1))
-            if not q or q[0][1] != curr_level:
-                curr_node.next = None
-            else:
-                curr_node.next = q[0][0]
-        return root
+    # tree traversal with queue
+    # def connect(self, root: 'Node') -> 'Node':
+    #     if not root: return root
+    #     q = [(root,0)]
+    #     while q:
+    #         curr_node, curr_level = q.pop(0)
+    #         if curr_node.left:
+    #             q.append((curr_node.left, curr_level+1))
+    #         if curr_node.right:
+    #             q.append((curr_node.right, curr_level+1))
+    #         # if the poped element is not at the same level 
+    #         # as the first element in the queue, then it should
+    #         # point to null
+    #         # else, it should point to the first element int the queue
+    #         if not q or q[0][1] != curr_level:
+    #             curr_node.next = None
+    #         else:
+    #             curr_node.next = q[0][0]
+    #     return root
+
+    # O(1) constant
+    def connect(self, node: 'Node') -> 'Node':
+        head = node
+        tail = dummy = Node(0, None, None, None) # tail is the start of the child layer
+        while node:
+            for c in (node.left, node.right):
+                tail.next = c
+                if tail.next:
+                    tail = tail.next
+            node = node.next
+            if not node:
+                tail = dummy
+                node = dummy.next
+
+        return head
