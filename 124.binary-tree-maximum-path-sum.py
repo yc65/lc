@@ -54,14 +54,18 @@
 
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
-        res = float('-inf')
-        def recur(node, res):
+        self.res = float('-inf')
+        def recur(node):
             if not node:
                 return 0
-            l = recur(node.left, res)
-            r = recur(node.right, res)
-            curr_max = max([l+node.val, r+node.val, node.val, l+r+node.val])
-            res = max(res, curr_max)
-            return res
-        res = recur(root, res)
-        return res
+            l = recur(node.left)
+            r = recur(node.right)
+            curr_max = max([l+node.val, r+node.val, node.val])
+            # NOTE: dont use the following one, since when both left and 
+            # right of the root are included in the path, the root should
+            # not have any ancestors
+            # curr_max = max([l+node.val, r+node.val, node.val, l+r+node.val])
+            self.res = max(self.res, curr_max, l+r+node.val)
+            return curr_max
+        recur(root)
+        return self.res
