@@ -32,6 +32,7 @@
 #         self.next = None
 
 class Solution:
+    # two pointers
     def partition(self, head: ListNode, x: int) -> ListNode:
         small_head = small = ListNode(0)
         large_head=large = ListNode(0)

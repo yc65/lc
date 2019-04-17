@@ -76,6 +76,7 @@
 # 
 #
 class Solution:
+    # stack 
     def simplifyPath(self, path: str) -> str:
         fds = path.split('/')
         fds = [fn for fn in fds if fn]

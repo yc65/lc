@@ -46,6 +46,9 @@ class Solution:
                 return 0
             l = recur(node.left)
             r = recur(node.right)
+            # NOTE: the following two lines
+            # we need to compare the l, r, depth only when
+            # both these two depth exist
             if not l:
                 return r+1
             if not r:

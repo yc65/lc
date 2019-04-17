@@ -57,7 +57,7 @@ class Solution:
                 if idx != right:          
                     root.right = build(idx+1, right)
                 return root 
-        res = build(0, len(inorder))
+        res = build(0, len(inorder)-1)
         return res
 
 
