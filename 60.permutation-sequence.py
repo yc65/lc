@@ -50,24 +50,38 @@
 # 
 #
 class Solution:
-    def getPermutation(self, n: int, k: int) -> str:
-        if n==1: return '1'
-        res = ''
-        i = 2
-        mod = []
-        numbers = [i for i in range(1, n+1)]
-        m = 0
-        while i <= n:
-            if m == 0:
-                k, m = k//i, k%i
-            else:
-                k, m = (k+1)//i, (k+1)%i
-            mod.append(m)
-            i += 1
-        while mod:
-            m = mod.pop()
-            num = numbers.pop(m-1)
-            res += str(num)
-        res += str(numbers.pop())
-        return res
+#     def getPermutation(self, n: int, k: int) -> str:
+#         if n==1: return '1'
+#         res = ''
+#         i = 2
+#         mod = []
+#         numbers = [i for i in range(1, n+1)]
+#         m = 0
+#         while i <= n:
+#             if m == 0:
+#                 k, m = k//i, k%i
+#             else:
+#                 k, m = (k+1)//i, (k+1)%i
+#             mod.append(m)
+#             i += 1
+#         while mod:
+#             m = mod.pop()
+#             num = numbers.pop(m-1)
+#             res += str(num)
+#         res += str(numbers.pop())
+#         return res
 
+        import math
+        numbers = [i for i in range(1, n+1)]
+        res = ''
+        while n > 0:
+            n -= 1
+            idx, k = divmod(k, math.factorial(n))
+            print(idx, numbers)
+            if k:
+                res += str(numbers[idx])
+                numbers.pop(idx)
+            else:
+                res += str(numbers[idx-1])
+                numbers.pop(idx-1)
+        return res
