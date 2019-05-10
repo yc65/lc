@@ -31,11 +31,13 @@ class Solution:
     def minCut(self, s: str) -> int:
         if not s: return -1
         len_s = len(s)
+        # create a table that record whether s[i][j] is palindrome
         is_palindrome = [[False for i in range(len_s)] for j in range(len_s)]
+        # create a list that record the number of cut needed for s[0][i]
         cut_count = [float('inf') for i in range(len_s)]
         for i in range(len_s):
             is_palindrome[i][i] = True
-        for l in range(2, len_s+1):
+        for l in range(2, len_s+1): # l is the length
             for i in range(len_s-l+1):
                 j = i+l-1
                 if l == 2:

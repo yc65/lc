@@ -44,6 +44,7 @@
 #         return res
 
 class Solution:
+    # bucket sort
     def maximumGap(self, nums: List[int]) -> int:
         if not nums: return 0
         max_val = max(nums)

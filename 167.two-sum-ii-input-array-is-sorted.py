@@ -4,6 +4,7 @@
 # [167] Two Sum II - Input array is sorted
 #
 class Solution:
+    # two pointers
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         i, j = 0, len(numbers) - 1
         while i < j:
