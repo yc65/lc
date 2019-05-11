@@ -34,11 +34,15 @@
 * [47. permutations ii](https://github.com/yc65/lc/blob/master/47.permutations-ii.py) (with sort)
 * [51. n-queens](https://github.com/yc65/lc/blob/master/51.n-queens.py)
 * [51. n-queens ii](https://github.com/yc65/lc/blob/master/52.n-queens-ii.py)
+* [77. combinations](https://github.com/yc65/lc/blob/master/77.combinations.py)
+* [78. subsets](https://github.com/yc65/lc/blob/master/78.subsets.py)
+* [79. word search](https://github.com/yc65/lc/blob/master/79.word-search.py)
 ## Stack
 * [20. valid parentheses](https://github.com/yc65/lc/blob/master/20.valid-parentheses.py)
 * [32. longest valid paranthesis](https://github.com/yc65/lc/blob/master/32.longest-valid-parentheses.py)
 * [56. merge intevals](https://github.com/yc65/lc/blob/master/56.merge-intervals.py)
 * [71. simplify path](https://github.com/yc65/lc/blob/master/71.simplify-path.py)
+* [84. lartest rectangle in histogram](https://github.com/yc65/lc/blob/master/84.largest-rectangle-in-histogram.py)
 ## Two pointers
 * [11. container with most water](https://github.com/yc65/lc/blob/master/11.container-with-most-water.py)
 * [15. three sums](https://github.com/yc65/lc/blob/master/15.3-sum_with_sort.py) (with sort)
@@ -48,6 +52,10 @@
 * [27. remove element](https://github.com/yc65/lc/blob/master/27.remove-element.py) (slow-fast pointers)
 * [42. trapping rain water](https://github.com/yc65/lc/blob/master/42.trapping-rain-water.py)
 * [75. sort colors](https://github.com/yc65/lc/blob/master/75.sort-colors.py)
+* [76. minimum window substring](https://github.com/yc65/lc/blob/master/76.minimum-window-substring.py) (also hashmap)
+* [80. remove duplicates from sorted array ii](https://github.com/yc65/lc/blob/master/80.remove-duplicates-from-sorted-array-ii.py)
+* [82. remove duplicates from sorted list ii](https://github.com/yc65/lc/blob/master/82.remove-duplicates-from-sorted-list-ii.py)
+* [83. remove duplicates from sorted list](https://github.com/yc65/lc/blob/master/83.remove-duplicates-from-sorted-list.py)
 ## Binary search
 * [4. median of two sorted arrays](https://github.com/yc65/lc/blob/master/4.median-of-two-sorted-arrays.py)
 * [33. search in rotated sorted array](https://github.com/yc65/lc/blob/master/33.search-in-rotated-sorted-array.py)
@@ -55,6 +63,7 @@
 * [35. search insert position](https://github.com/yc65/lc/blob/master/35.search-insert-position.py)
 * [69. sqrt x](https://github.com/yc65/lc/blob/master/69.sqrt-x.py)
 * [74. search a 2d matrix](https://github.com/yc65/lc/blob/master/74.search-a-2-d-matrix.pyy)
+* [81. search in rotated sorted array ii](https://github.com/yc65/lc/blob/master/81.search-in-rotated-sorted-array-ii.py)
 ## Bit operation
 * [29. divide two integers](https://github.com/yc65/lc/blob/master/29.divide-two-integers.py)
 ## Tree traversal
