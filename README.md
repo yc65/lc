@@ -22,6 +22,7 @@
 * [70. climbing stairs](https://github.com/yc65/lc/blob/master/70.climbing-stairs.py)
 * [72. edit distance](https://github.com/yc65/lc/blob/master/72.edit-distance.py)
 * [85. maximal rectangle](https://github.com/yc65/lc/blob/master/85.maximal-rectangle.py)
+* [91. decode ways](https://github.com/yc65/lc/blob/master/91.decode-ways.py)
 ## Greedy
 * [45. jump game ii](https://github.com/yc65/lc/blob/master/45.jump-game-ii.py)
 * [55. jump game](https://github.com/yc65/lc/blob/master/55.jump-game.py)
