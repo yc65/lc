@@ -11,6 +11,7 @@
 * [25. reverse nodes in k group](https://github.com/yc65/lc/blob/master/25.reverse-nodes-in-k-group.py)
 * [61. rotate list](https://github.com/yc65/lc/blob/master/61.rotate-list.py)
 * [86. partition list](https://github.com/yc65/lc/blob/master/86.partition-list.py)
+* [92. reverse linked list](https://github.com/yc65/lc/blob/master/92.reverse-linked-list-ii.py)
 ## DP
 * [5. longest palindromic substring](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_dp.py) (alternatively, loop centers [5. approach 2](https://github.com/yc65/lc/blob/master/5.longest-palindromic-substring_loop_center.py) )
 * [10. regular expression matching](https://github.com/yc65/lc/blob/master/10.regular-expression-matching.py)
@@ -41,6 +42,7 @@
 * [78. subsets](https://github.com/yc65/lc/blob/master/78.subsets.py)
 * [79. word search](https://github.com/yc65/lc/blob/master/79.word-search.py)
 * [90. subsets ii](https://github.com/yc65/lc/blob/master/90.subsets-ii.py)
+* [93. restore ip addresses](https://github.com/yc65/lc/blob/master/93.restore-ip-addresses.py)
 ## Stack
 * [20. valid parentheses](https://github.com/yc65/lc/blob/master/20.valid-parentheses.py)
 * [32. longest valid paranthesis](https://github.com/yc65/lc/blob/master/32.longest-valid-parentheses.py)
